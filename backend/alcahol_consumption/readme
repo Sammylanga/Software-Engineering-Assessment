@@ -1,0 +1,18 @@
+## Example of API Calls 
+Http method DELETE http://127.0.0.1:8000/patrons/delete_patron/1/
+
+Http method GET http://127.0.0.1:8000/all_patrons
+ 
+Http method GET http://127.0.0.1:8000/all_patrons
+
+Http method POST http://127.0.0.1:8000/patrons/drinks/1/
+
+            {
+                "id_drink": "11014",
+                "drink_name": "Alexander",
+                "drink_type": "Ordinary Drink",
+                "quantity": 1,
+                "alcohol_content": "Alcoholic"
+             }
+
+docker-compose exec backend python manage.py migrate --run-syncdb
