@@ -42,7 +42,7 @@ def rebalance_crypto_index_fund(assets, total_capital,asset_cap):
     print("             Amount      USD Value                          %")
 
     for i in range(len(assets)):
-        assets[i][3] = (assets[i][4]/100) * total_capital/10
+        assets[i][3] = (assets[i][4]/100) * total_capital/10 # made an assumptions that we use 10% of the total capital seems that out of 10,000  1,000 was used 
         assets[i][2] = assets[i][3]/assets[i][2]
         
         print(f'{assets[i][0]} { assets[i][2]} {assets[i][3]}   {assets[i][4]}      ')
