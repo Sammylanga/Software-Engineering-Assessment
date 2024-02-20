@@ -3,6 +3,8 @@
     - python3 Algorithm.py 
     
     # 4. 
+    using docker deskop
     - docker-compose up --build
     - docker-compose exec backend python manage.py migrate --run-syncdb
+    - Front-end will run on http://localhost:3000/
 
