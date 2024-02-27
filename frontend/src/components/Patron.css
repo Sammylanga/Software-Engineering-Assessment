@@ -1,0 +1,98 @@
+/* ProfileCard.css */
+
+.profile-div {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.create-patron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+button {
+    height: 35px;
+}
+
+input {
+    height: 30px;
+}
+
+.profile-card {
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    height: fit-content;
+}
+
+.profile-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-header .face {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-body {
+    padding: 10px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.delete-patron {
+    margin-top: 20px;
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+
+.face-with-shoulders {
+    text-align: center;
+}
+
+.face {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFF;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.beers {
+    margin-left: 15px;
+    height: 70px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+
